@@ -15,6 +15,16 @@ mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
 
+## Uninstall
+
+```shell
+rm -rf ~/.config/nvim
+rm -rf ~/.local/state/nvim
+rm -rf ~/.local/share/nvim
+rm -rf ~/.cache/nvim
+
+```
+
 #### Create a new user repository from this template
 
 Press the "Use this template" button above to create a new repository to store your user configuration.
@@ -24,7 +34,7 @@ You can also just clone this repository directly if you do not want to track you
 #### Clone the repository
 
 ```shell
-git clone https://github.com/hambosto/nvim-dotfiles ~/.config/nvim
+git clone https://github.com/hambosto/nvim ~/.config/nvim
 ```
 
 #### Start Neovim
@@ -32,4 +42,5 @@ git clone https://github.com/hambosto/nvim-dotfiles ~/.config/nvim
 ```shell
 nvim
 ```
+
 # nvim
