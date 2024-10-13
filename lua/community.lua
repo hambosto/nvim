@@ -11,7 +11,8 @@ return {
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.colorscheme.poimandres-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  { import = "astrocommunity.snippet.nvim-snippets" },
+  { import = "astrocommunity.recipes.vscode-icons" },
   -- import/override with your plugins folder
 }
