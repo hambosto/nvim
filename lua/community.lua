@@ -9,10 +9,11 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.go" },
-  { import = "astrocommunity.pack.typescript" },
-  { import = "astrocommunity.pack.python" },
+  --{ import = "astrocommunity.pack.typescript" },
+  --{ import = "astrocommunity.pack.python" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.snippet.nvim-snippets" },
   { import = "astrocommunity.recipes.vscode-icons" },
+  { import = "astrocommunity.utility.noice-nvim" },
   -- import/override with your plugins folder
 }
