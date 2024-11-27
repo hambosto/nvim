@@ -15,6 +15,8 @@ return {
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.snippet.nvim-snippets" },
   { import = "astrocommunity.recipes.vscode-icons" },
+  { import = "astrocommunity.diagnostics.error-lens-nvim" },
+  { import = "astrocommunity.lsp.lsp-lens-nvim" },
   -- { import = "astrocommunity.utility.noice-nvim" },
   -- import/override with your plugins folder
 }
