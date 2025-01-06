@@ -11,7 +11,7 @@ return {
   { import = "astrocommunity.pack.go" },
   -- { import = "astrocommunity.pack.typescript" },
   -- { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.pack.nix" },
+  -- { import = "astrocommunity.pack.nix" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.snippet.nvim-snippets" },
   { import = "astrocommunity.recipes.vscode-icons" },
